@@ -1,5 +1,6 @@
-var express = require('express');
-var cors = require('cors')
+const express = require('express');
+const cors = require('cors')
+const port = 3000;
 
 var app = express();
 
@@ -10,4 +11,6 @@ app.get("/", function(req, res){
     res.render('index', {});
 })
 
-app.listen(process.env.PORT)
+let server = app.listen(port, () => {
+    console.log(`Server started, running on port ${port}`);
+});
