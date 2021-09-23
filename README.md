@@ -5,3 +5,4 @@ Troop70atx Website Project
 * Web Committee Kick Off Meeting
 * ReadMe file
 * Code Base
+* Make website
